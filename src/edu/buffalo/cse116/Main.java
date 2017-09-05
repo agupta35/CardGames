@@ -8,6 +8,6 @@ public class Main {
   }
 
 }
-public class swag{
+public class hello{
 	
 }
