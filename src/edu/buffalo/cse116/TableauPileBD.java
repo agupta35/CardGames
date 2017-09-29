@@ -14,47 +14,42 @@ public class TableauPileBD{
 	public static cards theRemovedCard;
 	
 	public TableauPileBD(cards card1, cards card2, cards card3, cards card4){
-		
         this._card1 = card1;
         tableauPile.add(_card1);
-        
-     //   tableauPile[0] = _card1;
         
         this._card2 = card2;
         tableauPile.add(_card2);
         
-     //   tableauPile[1] = _card2;
-        
         this._card3 = card3;
         tableauPile.add(_card3);
         
-     //   tableauPile[2] = _card3;
-        
         this._card4 = card4;
         tableauPile.add(_card4);
-        
-     //   tableauPile[3] = _card4;
- 
+	}
+	public ArrayList<cards> getTableauArrayList(){
+		return tableauPile;
 	}
 	
 	public boolean addCard(cards addCard){
-		for(int i = 0; i < tableauPile.size(); i++){
-			if(tableauPile.get(i) == null && tableauPile.get(i-1).getRank() == addCard.getRank()+1){
-				tableauPile.set(i, addCard);
-				return true;
-			}
+		if(tableauPile.get(0) == null){
+			return false;
 		}
-		return false;
+		else if(tableauPile.get(tableauPile.size()-1).getRank() == addCard.getRank()+1){
+			tableauPile.add(addCard);
+			return true;
+		}
+		else{
+			return false;
+		}
 	}
 	
 	public boolean removingTopCard(){
-		for(int i = 0; i < tableauPile.size(); i++){
-			if(tableauPile.get(i) == null){ 				//This is the first spot in the array where there is no card
-				theRemovedCard = tableauPile.get(i-1);		//The index previous to it is where the top card is and it is stored in theRemovedCard
-				tableauPile.set(i, null);				//Then by setting that index to null it no longer is in the pile
-				return true;
-			}											
+		if(tableauPile.get(0) == null){
+			return false;
 		}
-		return false;
+		else{
+			tableauPile.remove(tableauPile.size()-1);
+			return true;
+		}
 	}	
 }
