@@ -31,7 +31,7 @@ public class TableauPileBD{
 	}
 	
 	public boolean addCard(cards addCard){
-		if(tableauPile.get(0) == null){
+		if(tableauPile.isEmpty()){
 			return false;
 		}
 		else if(tableauPile.get(tableauPile.size()-1).getRank() == addCard.getRank()+1){
@@ -44,7 +44,7 @@ public class TableauPileBD{
 	}
 	
 	public boolean removingTopCard(){
-		if(tableauPile.get(0) == null){
+		if(tableauPile.isEmpty()){
 			return false;
 		}
 		else{

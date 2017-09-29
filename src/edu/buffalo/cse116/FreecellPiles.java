@@ -1,29 +1,33 @@
 package edu.buffalo.cse116;
 
+import java.util.ArrayList;
 
-public class FreecellPiles{
-	private static cards[] freecellPile;
-public FreecellPiles(){
-	freecellPile = new cards[0]; 
-}
+public class FreecellPiles {
+	private cards card1;
+	private static ArrayList<cards> freecellPile;
 
-public boolean addCard(cards addCard){
-	
-	//	int i = 0;
-		if(freecellPile[0] == null){
-			freecellPile[0] = addCard;
+	public FreecellPiles(cards card1) {
+		this.card1 = card1;
+		card1=null;
+		freecellPile.add(card1);
+
+	}
+	public ArrayList<cards> getArrayList(){
+		return freecellPile;
+	}
+
+	public boolean addCard(cards addCard) {
+
+		if (freecellPile.get(0) == null) {
+			freecellPile.set(0,addCard);
 			return true;
-		}else{
+		} else {
 			return false;
 		}
-	
-	
-	
-}
 
-public boolean removeTopCard(){
-	return false;
-}
+	}
 
+	public boolean removeTopCard() {
+		return false;
+	}uy
 }
-

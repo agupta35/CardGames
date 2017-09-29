@@ -68,12 +68,12 @@ public TableauPileFC(cards card1, cards card2, cards card3, cards card4,cards ca
 public ArrayList<cards> getTableauArrayList(){
 	return tableauPile;
 }
-	
+
 public boolean addCard(cards addCard){
-	if(tableauPile.get(0) == null){
+	if(tableauPile.isEmpty()){
 		return false;
 	}
-	else if(tableauPile.get(tableauPile.size()-1).getRank() == addCard.getRank()+1){
+	else if(tableauPile.get(tableauPile.size()-1).getRank() == addCard.getRank()+1 && tableauPile.get(tableauPile.size()-1).getColor()!=addCard.getColor()){
 		tableauPile.add(addCard);
 		return true;
 	}
@@ -83,7 +83,7 @@ public boolean addCard(cards addCard){
 }
 
 public boolean removingTopCard(){
-	if(tableauPile.get(0) == null){
+	if(tableauPile.isEmpty()){
 		return false;
 	}
 	else{
