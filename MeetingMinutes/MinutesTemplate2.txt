@@ -5,6 +5,7 @@ Meeting Attendance:
   *Vingnesh Kass
   *Akshit Gupta
   *Afee Daian
+  *Mervyn
 
 Tasks completed since last meeting:
   *Deck of Cards/Cards Class Created
