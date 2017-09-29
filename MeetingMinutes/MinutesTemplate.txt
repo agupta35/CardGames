@@ -1,22 +1,22 @@
-Meeting Minutes for _______________:
+Meeting Minutes for 9-05-17:
 
 Meeting Attendance:
-  *
-  *
-  *
+  *Patrick Doty
+  *Vingnesh Kass
+  *Akshit Gupta
+  *Afee Daian
 
 Tasks completed since last meeting:
-  *
-  *
-
+  *N/A
+  
 Tasks started, but not completed, since last meeting:
-  *
+  *N/A
   *
 
 Tasks to be worked on (and by which team members) for the next meeting:
-  *
-  *
+  *Create a GITHUB 
+  *Distribute the Work between Each Member
 
 Schedule for the next week's set of pair programming meetings:
-  *
+  *Go over each persons tasks and plan for the next week
   *
