@@ -1,0 +1,24 @@
+Meeting Minutes for 9-19-17:
+
+Meeting Attendance:
+  *Patrick Doty
+  *Vingnesh Kass
+  *Akshit Gupta
+  *Afee Daian
+
+Tasks completed since last meeting:
+  *Creat a Cards Class for the upcoming Deck Class
+
+Tasks started, but not completed, since last meeting:
+  *FreeCell
+  *All Test Cases
+
+Tasks to be worked on (and by which team members) for the next meeting:
+  *Deck Class (Patrick Doty)
+  *Tableau Pile Tests
+  *Homecell Pile Tests
+  *FreeCell Pile Tests
+
+Schedule for the next week's set of pair programming meetings:
+  *Go over each persons tasks 
+  *

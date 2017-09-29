@@ -1,0 +1,25 @@
+Meeting Minutes for 9-26-17:
+
+Meeting Attendance:
+  *Patrick Doty
+  *Vingnesh Kass
+  *Akshit Gupta
+  *Afee Daian
+
+Tasks completed since last meeting:
+  *Deck of Cards/Cards Class Created
+  *Baker's Dozen
+
+Tasks started, but not completed, since last meeting:
+  *FreeCell
+  *All Test Cases
+
+Tasks to be worked on (and by which team members) for the next meeting:
+  *FreeCell (Patrick Doty)
+  *Tableau Pile Tests
+  *Homecell Pile Tests
+  *FreeCell Pile Tests
+
+Schedule for the next week's set of pair programming meetings:
+  *Learn about phase 2 of the project and develop a definitive plan for completing phase 2. 
+  *
