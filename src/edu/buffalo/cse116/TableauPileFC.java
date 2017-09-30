@@ -14,8 +14,8 @@ public class TableauPileFC{
 	
 	//one in front is card7, one in the back is card1
 	
-	public static ArrayList<cards> tableauPile = new ArrayList<cards>();
-	public static cards theRemovedCard;
+	private ArrayList<cards> tableauPile = new ArrayList<cards>();
+
 	
 	public TableauPileFC(cards card1, cards card2, cards card3, cards card4,cards card5,cards card6,cards card7){
 		

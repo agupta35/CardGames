@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class FreecellPile {
 	private cards card1;
-	private static ArrayList<cards> freecellPile;
+	private ArrayList<cards> freecellPile;
 
 	public FreecellPile() {
 		freecellPile.isEmpty();
