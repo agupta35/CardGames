@@ -12,20 +12,20 @@ public class Freecell{
 	private TableauPileFC Tpile8;
 	
 	
-	private HomecellPileFC Hpile1; //These are the 4 homecell piles for a bakers Freecell game
-	private HomecellPileFC Hpile2;
-	private HomecellPileFC Hpile3;
-	private HomecellPileFC Hpile4;
+	private HomecellPile Hpile1; //These are the 4 homecell piles for a bakers Freecell game
+	private HomecellPile Hpile2;
+	private HomecellPile Hpile3;
+	private HomecellPile Hpile4;
 	
-	private FreecellPiles Fpile1;// These are 4 freecells for the freecell game.
-	private FreecellPiles Fpile2;
-	private FreecellPiles Fpile3;
-	private FreecellPiles Fpile4;
+	private FreecellPile Fpile1;// These are 4 freecells for the freecell game.
+	private FreecellPile Fpile2;
+	private FreecellPile Fpile3;
+	private FreecellPile Fpile4;
 
 	
 	public Freecell(TableauPileFC Tpile1, TableauPileFC Tpile2, TableauPileFC Tpile3, TableauPileFC Tpile4, 
-			TableauPileFC Tpile5,TableauPileFC Tpile6, TableauPileFC Tpile7, TableauPileFC Tpile8,  HomecellPileFC Hpile1, HomecellPileFC Hpile2, HomecellPileFC Hpile3,
-			HomecellPileFC Hpile4,FreecellPiles Fpile1,FreecellPiles Fpile2,FreecellPiles Fpile3,FreecellPiles Fpile4){
+			TableauPileFC Tpile5,TableauPileFC Tpile6, TableauPileFC Tpile7, TableauPileFC Tpile8,  HomecellPile Hpile1, HomecellPile Hpile2, HomecellPile Hpile3,
+			HomecellPile Hpile4,FreecellPile Fpile1,FreecellPile Fpile2,FreecellPile Fpile3,FreecellPile Fpile4){
 		
 		this.Tpile1 = Tpile1; this.Tpile2 = Tpile2; this.Tpile3 = Tpile3; this.Tpile4 = Tpile4;
 		this.Tpile5 = Tpile5; this.Tpile6 = Tpile6; 
